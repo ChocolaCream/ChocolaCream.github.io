@@ -1,0 +1,104 @@
+/*IDs*/
+#header{
+    margin:0px;
+    border-radius: 0px 0px 20px 20px;
+    width:calc(100% - 20px);
+    height:100px;
+    /*box-shadow: 0px -40px 100px 12px rgb(186, 195, 202);*/
+    padding:10px 0px 00px 20px;
+}#mainBody{
+    background-image: url("./img/bg_img.jpg");
+    margin: auto;
+    height: calc(100vh - 110px);
+    transition: 1s;
+    opacity: 0.0;
+    box-shadow: inset 0px 0px 10px 20px rgb(230, 230, 240);
+    border-radius: 10px;
+}#logo{
+    background-image: url("./img/Logo2.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}#middle{
+    width: calc(100% - 140px);
+}#textHolders{
+    padding-top: 20px;
+}#mainInfoBoxes{
+    color: white;
+    padding-top:50px;
+    padding-left: 50px;
+    font-size: 35px;
+    text-shadow: 2px 2px 8px rgb(65, 68, 70);
+    font-family: "Courier New", "Courier New", monospace;
+    font-weight: bold;
+}
+
+/*Classes*/
+.topContents{
+    height:80px;
+    width: 80px;
+    box-shadow: 8px 8px 8px rgb(186, 195, 202), -8px -8px 8px rgb(255, 255, 255);
+    display: inline-block;
+    border-radius: 18px;
+    margin:5px;
+    margin-right:22px;
+}.textHolders{
+    margin:-10px 15px 0px 15px;
+    display: inline-block;
+    border: solid px red;
+    width: 100px;
+    height: 55px;
+    transition: 1s;
+    float: right;
+}.textHolders:nth-child(1){
+
+}.textHolders:nth-child(1){
+    
+}.textHolders:nth-child(3){
+    
+}
+
+.textHoldersInt{
+    border: solid px red;
+    transition: 0.6s;
+    height:100%;
+}.textHolders:nth-child(1) > .textHoldersInt{
+
+}.textHolders:nth-child(2) > .textHoldersInt{
+    
+}.textHolders:nth-child(3) > .textHoldersInt{
+    background-image: url("./img/camera.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 50px auto;
+    background-position: center; 
+}
+.mainInfoImageText{
+    background-color: rgb(230, 230, 240);
+    padding:10px;
+    border-radius: 15px;
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.6s;
+}
+
+/*dynamic*/
+
+
+/*Tags*/
+html{
+    height: 100%;
+}
+body{
+    margin:0px;
+    background-color: rgb(230, 230, 240);
+    min-height: 100%;
+}
+div{
+    vertical-align:top;/*to prevent div from dropping down with text inside*/
+}
+text{
+    margin: 20px;
+}
+
+
+
